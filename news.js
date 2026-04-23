@@ -1,9 +1,9 @@
 const NEWS_ITEMS = [
-  `<strong>[Apr 2026]</strong> Our paper, Adversarial Training and Differential Privacy for Privacy-Preserving Vertical Federated Learning, was accepted in <a href="http://jecasmu.org" target="_blank"><span style="color: rgb(10, 93, 128)">JECASMU 2026</span></a>`,
+  `<strong>[Apr 2026]</strong> Our paper, <span style="color: rgb(10, 93, 128)">Adversarial Training and Differential Privacy for Privacy-Preserving Vertical Federated Learning</span>, was accepted in <a href="http://jecasmu.org" target="_blank"><span style="color: rgb(10, 93, 128)">JECASMU 2026</span></a>`,
   
-  `<strong>[Apr 2026]</strong> Our paper, From Data to Diagnosis: Facilitating Physician-AI Synergy in Heart Disease Prediction Systems, was accepted in <a href="http://www.mdpi.com/journal/informatics" target="_blank"><span style="color: rgb(10, 93, 128)">MDPI Informatics 2026</span></a>`,
+  `<strong>[Apr 2026]</strong> Our paper, <span style="color: rgb(10, 93, 128)">From Data to Diagnosis: Facilitating Physician-AI Synergy in Heart Disease Prediction Systems</span>, was accepted in <a href="http://www.mdpi.com/journal/informatics" target="_blank"><span style="color: rgb(10, 93, 128)">MDPI Informatics 2026</span></a>`,
   
-  `<strong>[Jan 2026]</strong> I completed my Masters Degree in Computer Science at the University of Lagos</a>.`,
+  `<strong>[Jan 2026]</strong> I completed my Masters Degree in <span style="color: rgb(10, 93, 128)">Computer Science</span> at the <a href="https://unilag.edu.ng/" target="_blank"><span style="color: rgb(10, 93, 128)">University of Lagos (The Nation's Pride)</span></a>.`,
   
   `<strong>[Dec 2025]</strong> Our paper, <a href="https://journals.ui.edu.ng/index.php/uijslictr/article/view/2041" target="_blank"><span style="color: rgb(10, 93, 128)">Artificial Intelligence in Cybersecurity: A Comparative Review of Its Role across the Cyber Kill Chain</span></a>, was published in <a href="https://journals.ui.edu.ng/index.php/uijslictr/index" target="_blank"><span style="color: rgb(10, 93, 128)">UIJSLICTR 2025</span></a>`,
   
