@@ -1,6 +1,6 @@
 # oluwatobimalomo.github.io
  
-Personal academic and professional portfolio of **Oluwatobi Malomo** — Cybersecurity & IAM Engineer, and researcher at the intersection of Artificial Intelligence and Cybersecurity.
+My academic and professional portfolio
  
 🌐 **Live site:** [oluwatobimalomo.github.io](https://oluwatobimalomo.github.io)
  
@@ -51,7 +51,7 @@ Forked and adapted from [Steven Kolawole's page](https://stevenkolawole.github.i
 ## Contact
  
 📧 oluwatobis[dot]malomo[at]gmail[dot]com  
-🔗 [LinkedIn](https://www.linkedin.com/in/oluwatobi-malomo) · [Google Scholar](https://scholar.google.com/citations?user=REPLACE) · [ResearchGate](https://www.researchgate.net/profile/Oluwatobi-Malomo)
+🔗 [LinkedIn](https://www.linkedin.com/in/oluwatobi-malomo) · [Google Scholar]([https://scholar.google.com/citations?user=REPLACE](https://scholar.google.com/citations?user=yGvnu_gAAAAJ&hl=en)) · [ResearchGate](https://www.researchgate.net/profile/Oluwatobi-Malomo)
  
 
 
