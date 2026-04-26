@@ -1,7 +1,7 @@
 const NEWS_ITEMS = [
-  `<strong>[Apr 2026]</strong> Our paper, <span style="color: rgb(128, 118, 10)">Adversarial Training and Differential Privacy for Privacy-Preserving Vertical Federated Learning</span>, was accepted in <a href="http://jecasmu.org" target="_blank"><span style="color: rgb(128, 118, 10)">JECASMU 2026</span></a>`,
+  `<strong>[Apr 2026]</strong> Our paper, <span style="color: rgb(128, 118, 10)">Adversarial Training and Differential Privacy for Privacy-Preserving Vertical Federated Learning</span>, was accepted in <a href="http://www.mdpi.com/journal/informatics" target="_blank"><span style="color: rgb(128, 118, 10)">MDPI Informatics 2026</span></a>`,
   
-  `<strong>[Apr 2026]</strong> Our paper, <span style="color: rgb(128, 118, 10)">From Data to Diagnosis: Facilitating Physician-AI Synergy in Heart Disease Prediction Systems</span>, was accepted in <a href="http://www.mdpi.com/journal/informatics" target="_blank"><span style="color: rgb(128, 118, 10)">MDPI Informatics 2026</span></a>`,
+  `<strong>[Apr 2026]</strong> Our paper, <span style="color: rgb(128, 118, 10)">From Data to Diagnosis: Facilitating Physician-AI Synergy in Heart Disease Prediction Systems</span>, was accepted in <a href="http://jecasmu.org" target="_blank"><span style="color: rgb(128, 118, 10)">JECASMU 2026</span></a>`,
   
   `<strong>[Jan 2026]</strong> I completed my Masters Degree in <span style="color: rgb(128, 118, 10)">Computer Science</span> at the <a href="https://unilag.edu.ng/" target="_blank"><span style="color: rgb(128, 118, 10)">University of Lagos (The Nation's Pride)</span></a>.`,
   
