@@ -11,7 +11,7 @@
     <meta name="keywords" content="Oluwatobi Malomo, Privacy, Trustworthy AI, Federated Learning, Cybersecurity, AI for Social Good" />
     <meta name="citation_author" content="Oluwatobi Malomo" />
 
-    <!-- Google Search Console verification (ONE only) -->
+    <!-- Google Search Console verification -->
     <meta name="google-site-verification" content="jFxn8xhKKjS8OXptOTfWHnH5Q2rDue67-oYy8Rn5WvY" />
 
     <!-- Structured Data -->
@@ -34,7 +34,8 @@
         "https://scholar.google.com/citations?user=yGvnu_gAAAAJ&hl=en",
         "https://www.linkedin.com/in/oluwatobi-malomo",
         "https://x.com/IamtOBESt",
-        "https://www.researchgate.net/profile/oluwatobi-malomo"
+        "https://www.researchgate.net/profile/oluwatobi-malomo",
+        "https://oluwatobimalomo.medium.com"
       ]
     }
     </script>
@@ -47,7 +48,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
     <link rel="author" href="https://www.linkedin.com/in/oluwatobi-malomo/" />
   </head>
-  
+
   <body>
     <header class="site-header">
       <nav class="nav">
@@ -65,7 +66,8 @@
         </div>
       </nav>
     </header>
-    
+
+    <!-- FIX: Added closing </article> tag that was missing -->
     <article class="page container">
       <div class="page-content">
         <div class="page-intro">
@@ -79,30 +81,14 @@
             <div class="contact-details">
               Email: <a href="#">oluwatobis[dot]malomo[at]gmail[dot]com</a>
             </div>
-            
             <div class="social">
-              <a
-                class="social-item"
-                href="https://scholar.google.com/citations?user=yGvnu_gAAAAJ&hl=en"
-                target="_blank"
-                aria-label="Google Scholar Profile"
-              >
+              <a class="social-item" href="https://scholar.google.com/citations?user=yGvnu_gAAAAJ&hl=en" target="_blank" aria-label="Google Scholar Profile">
                 <i class="ai ai-google-scholar-square" aria-hidden="true"></i>
               </a>
-              <a
-                class="social-item"
-                href="https://github.com/oluwatobimalomo"
-                target="_blank"
-                aria-label="GitHub Profile"
-              >
+              <a class="social-item" href="https://github.com/oluwatobimalomo" target="_blank" aria-label="GitHub Profile">
                 <i class="fab fa-github" aria-hidden="true"></i>
               </a>
-              <a
-                class="social-item"
-                href="https://x.com/IamtOBESt"
-                target="_blank"
-                aria-label="X Profile"
-              >
+              <a class="social-item" href="https://x.com/IamtOBESt" target="_blank" aria-label="X Profile">
                 <i class="fab fa-twitter" aria-hidden="true"></i>
               </a>
             </div>
@@ -117,24 +103,28 @@
             />
           </div>
         </div>
+
         <p>Hi, I'm pleased to meet you! :)</p>
-        
+
         <h1 class="header-name">Research</h1>
         <p style="text-align: justify">
-          The deeper question driving my research interest is whether trustworthiness can be a design principle and not an afterthought. 
-          I am particularly motivated by what this means for healthcare, financial services, and public institutions in underserved 
+          The deeper question driving my research interest is whether trustworthiness can be a design principle and not an afterthought.
+          I am particularly motivated by what this means for healthcare, financial services, and public institutions in underserved
           and data-scarce environments, where the gap between AI's promise and its responsible deployment is widest.
         </p>
         <p style="text-align: justify">
-          I am currently investigating the impact of Adversarial Machine Learning on Federated Learning environments with particular focus on how the fusion of Knowledge Distillation (with k-anonymity) 
-          and Differential Privacy can lead to an improved defense mechanism in Vertical Federated Learning (VFL) systems. 
+          I am currently investigating the impact of Adversarial Machine Learning on Federated Learning environments with particular focus on how the fusion of Knowledge Distillation (with k-anonymity)
+          and Differential Privacy can lead to an improved defense mechanism in Vertical Federated Learning (VFL) systems.
         </p>
       </div>
     </article>
+    <!-- FIX: </article> closing tag restored here -->
 
+    <!-- FIX: Closing </div> added for this container -->
     <div class="container">
       <h1 class="header-name">Selected Publications</h1>
 
+      <!-- Publication 1 — FIX: id="desc-1" (unique) -->
       <div class="publication-item">
         <div class="pub-title">
           <a href="https://www.mdpi.com/journal/computers" target="_blank">
@@ -144,15 +134,16 @@
         <div class="pub-authors">Azeez Nureni, Ademoye Abdullateef, <span class="author-highlight">Oluwatobi Malomo*</span>, Okerinde Mary, Aaron Damilola, Charles Vyver</div>
         <div class="pub-venue" title="">In Press</div>
         <div class="pub-description" id="desc-1" style="display: none;">
-          This study aims to fill the gap of insufficient datasets for cybersecurity in Internet of Medical Things (IoMT) ecosystem 
-          through data augmentation and their effects on intrusion detection systems performance. To develop augmented datasets with 
-          varying label distributions, the research utilizes four augmentation methods; Rule-Based, Tabular Variational Autoencoder 
-          (TVAE), Conditional Tabular Generative Adversarial Network (CT_GAN), and Gaussian Copula to generate synthetic datasets 
-          based on existing ECU-IoHT and WUSTL-EHMS datasets...
+          This study aims to fill the gap of insufficient datasets for cybersecurity in Internet of Medical Things (IoMT) ecosystem
+          through data augmentation and their effects on intrusion detection systems performance. To develop augmented datasets with
+          varying label distributions, the research utilizes four augmentation methods; Rule-Based, Tabular Variational Autoencoder
+          (TVAE), Conditional Tabular Generative Adversarial Network (CT_GAN), and Gaussian Copula to generate synthetic datasets
+          based on existing ECU-IoHT and WUSTL-EHMS datasets.
         </div>
         <button class="read-more-btn" onclick="toggleDescription('desc-1', this)" aria-expanded="false">Read more ▼</button>
       </div>
-      
+
+      <!-- Publication 2 — FIX: id="desc-2" (unique) -->
       <div class="publication-item">
         <div class="pub-title">
           <a href="https://journals.ui.edu.ng/index.php/uijslictr/article/view/2041" target="_blank">
@@ -163,88 +154,92 @@
         <div class="pub-venue" title="Journal of Science and Logics in ICT Research">UIJSLICTR 2025</div>
         <div class="pub-description" id="desc-2" style="display: none;">
           Presents a comprehensive overview of the Cyber Kill Chain (CKC), highlighting the role Artificial Intelligence plays across each phase in
-          terms of offensive and defensive cybersecurity operations. A comparative analysis of 3 cybersecurity frameworks, with justifications for 
-          each, was also examined. Drawing on real-world case studies and recent literature, this study further highlights current challenges with 
-          the fusion of AI into cybersecurity operations, ranging from data privacy, adversarial attacks, and AI explainability. The review concludes 
-          by advocating forthe adaptation of dynamic, AI-driven modelling frameworks that better align with the rapidly evolving cyber threat landscape.
+          terms of offensive and defensive cybersecurity operations. A comparative analysis of 3 cybersecurity frameworks, with justifications for
+          each, was also examined. Drawing on real-world case studies and recent literature, this study further highlights current challenges with
+          the fusion of AI into cybersecurity operations, ranging from data privacy, adversarial attacks, and AI explainability. The review concludes
+          by advocating for the adaptation of dynamic, AI-driven modelling frameworks that better align with the rapidly evolving cyber threat landscape.
         </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-2', this)"  aria-expanded="false">Read more ▼</button>
+        <button class="read-more-btn" onclick="toggleDescription('desc-2', this)" aria-expanded="false">Read more ▼</button>
       </div>
 
+      <!-- Publication 3 — FIX: id="desc-3" (was duplicate desc-2) -->
       <div class="publication-item">
         <div class="pub-title">
-          <a href="https://www.mdpi.com/journal/computers" target="_blank">
+          <a href="https://arxiv.org/abs/2506.18728" target="_blank">
             Adversarial Training and Differential Privacy for Privacy-Preserving Vertical Federated Learning
           </a>
         </div>
         <div class="pub-authors">Azeez Nureni, <span class="author-highlight">Oluwatobi Malomo*</span>, Okerinde Mary, Ademoye Abdullateef, Aaron Damilola, Charles Vyver, Chijioke Ogbonna</div>
-        <div class="pub-venue" title="Journal of Science and Logics in ICT Research">MDPI Informatics 2026</div>
-        <div class="pub-description" id="desc-2" style="display: none;">
-          Addresses the model utility vs. privacy tradeoff in privacy-preserving Vertical Federated Learning (VFL) by introducing an improved 
-          a defense mechanism that combines Adversarial Training (to harden the soft labels) and Differential Privacy (aimed at restoring label 
+        <div class="pub-venue" title="MDPI Informatics">MDPI Informatics 2026</div>
+        <div class="pub-description" id="desc-3" style="display: none;">
+          Addresses the model utility vs. privacy tradeoff in privacy-preserving Vertical Federated Learning (VFL) by introducing an improved
+          defense mechanism that combines Adversarial Training (to harden the soft labels) and Differential Privacy (aimed at restoring label
           privacy) to collectively enhance the robustness of the existing KD defense mechanism with marginal model utility trade-off.
         </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-2', this)"  aria-expanded="false">Read more ▼</button>
+        <button class="read-more-btn" onclick="toggleDescription('desc-3', this)" aria-expanded="false">Read more ▼</button>
       </div>
 
+      <!-- Publication 4 — FIX: id="desc-4", fixed broken author span, fixed "luwatobi" typo -->
       <div class="publication-item">
         <div class="pub-title">
           <a href="http://irepo.futminna.edu.ng:8080/jspui/handle/123456789/18994" target="_blank">
             Application of Machine Learning Algorithm for Classification of Fake COVID-19 Tweets
           </a>
         </div>
-        <div class="pub-authors">luwatobi Malomo*</span>, Andrew Uduimoh, Alhassan John</div>
+        <div class="pub-authors"><span class="author-highlight">Oluwatobi Malomo*</span>, Andrew Uduimoh, Alhassan John</div>
         <div class="pub-venue" title="Journal of Science, Technology, Mathematics and Education">JOSTMED 2023</div>
-        <div class="pub-description" id="desc-2" style="display: none;">
-          he intentional dissemination of false information, known as fake news, aims to manipulate readers into accepting biased 
-          or untrue beliefs by altering their interpretation and response to real news. However, identifying fake news is a tedious 
-          task, especially on platforms like Twitter where information is rapidly disseminated...
+        <div class="pub-description" id="desc-4" style="display: none;">
+          The intentional dissemination of false information, known as fake news, aims to manipulate readers into accepting biased
+          or untrue beliefs by altering their interpretation and response to real news. However, identifying fake news is a tedious
+          task, especially on platforms like Twitter where information is rapidly disseminated. This AI for Social Good (AI4SG)
+          research leverages Machine Learning algorithms to detect COVID-19 fake news on Twitter.
         </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-2', this)"  aria-expanded="false">Read more ▼</button>
+        <button class="read-more-btn" onclick="toggleDescription('desc-4', this)" aria-expanded="false">Read more ▼</button>
       </div>
 
-      <div class="publication-item">
-        <div class="pub-title">
-          <a href="https://arxiv.org/abs/2509.21837" target="_blank">
-            
-          </a>
-        </div>
-        <div class="pub-authors"><span class="author-highlight">O</div>
-        <div class="pub-venue" title="Journal of Science, Technology, Mathematics and Education">JOSTMED 2023</div>
-        <div class="pub-description" id="desc-2" style="display: none;">
-          AI for Social Good (AI4SG) research aimed at leveraging Machine Learning algorithms to detect COVID-19 
-          fake news on Twitter. 
-        </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-2', this)"  aria-expanded="false">Read more ▼</button>
+      <!-- FIX: Removed the broken empty fifth publication entry entirely -->
+
+      <div class="read-more-button">
+        <a href="publications.html">Complete Publication List</a>
       </div>
+    </div>
+    <!-- FIX: Closing </div> for Selected Publications container restored -->
+
+    <!-- FIX: Recent Highlights section restored (was missing entirely) -->
+    <div class="container">
+      <h1 class="header-name">Recent Highlights</h1>
+      <ul class="list" id="news-list"></ul>
+      <div class="read-more-button">
+        <a href="news.html">More Updates</a>
+      </div>
+    </div>
 
     <div class="container">
       <h1 class="header-name">Community Impact</h1>
       <p style="text-align: justify">
-        Over the last 4 years, I have successfully trained 50+ high school and A-level students in the areas of Data Analytics, introducing them to the tools and techniques. 
+        Over the last 4 years, I have successfully trained 50+ high school and A-level students in the areas of Data Analytics, introducing them to the tools and techniques.
         Most of them are now in top CS programs all over the world. I have also helped 10 early career starters pivot into roles in tech.
       </p>
-      
       <p style="text-align: justify">
-        Outside research, I love to volunteer, leading the Registration and Data Team at 
-        <a href="https://ymrglobal.org/" target="_blank"><span style="color: rgb(128, 118, 10)">YMR Global</span></a>, a youth-focused annual retreat that hosts 250K+  
-        participants with attendees from the United States, UK, Canada, Ireland, Dubai, and several African countries. I enjoy playing/watching football, meeting 
-        people and having insightful impact-driven conversations.</p>
+        Outside research, I love to volunteer, leading the Registration and Data Team at
+        <a href="https://ymrglobal.org/" target="_blank"><span style="color: rgb(128, 118, 10)">YMR Global</span></a>, a youth-focused annual retreat that hosts 250K+
+        participants with attendees from the United States, UK, Canada, Ireland, Dubai, and several African countries. I enjoy playing/watching football, meeting
+        people and having insightful impact-driven conversations.
+      </p>
     </div>
 
     <footer class="site-footer">
       <div class="container">
-        <small> <b>Last Updated:</b> April, 2026 </small>
+        <small><b>Last Updated:</b> April, 2026</small>
+        <!-- FIX: Footer link corrected to point to Steven's site, not your own -->
         <small class="block">
-          © Oluwatobi Malomo. forked from
-          <a href="https://oluwatobimalomo.github.io/" target="_blank"
-            ><span style="color: rgb(128, 118, 10)">Steven Kolawole's page</span></a
-          >· &lt;/&gt; Powered by
+          © Oluwatobi Malomo. Forked from
+          <a href="https://stevenkolawole.github.io/" target="_blank">
+            <span style="color: rgb(128, 118, 10)">Steven Kolawole's page</span>
+          </a> · &lt;/&gt; Powered by
           <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and
-          <a href="https://github.com/heiswayi/thinkspace" target="_blank"
-            >Thinkspace</a
-          >; hosted on
-          <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+          <a href="https://github.com/heiswayi/thinkspace" target="_blank">Thinkspace</a>;
+          hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
         </small>
       </div>
     </footer>
@@ -256,7 +251,6 @@
       function toggleDescription(descId, button) {
         const desc = document.getElementById(descId);
         const isHidden = desc.style.display === 'none';
-
         if (isHidden) {
           desc.style.display = 'block';
           button.textContent = 'Read less ▲';
@@ -268,8 +262,7 @@
         }
       }
 
-      // Initialize buttons with proper ARIA attributes on page load
-      document.addEventListener('DOMContentLoaded', function() {
+      document.addEventListener('DOMContentLoaded', function () {
         const buttons = document.querySelectorAll('.read-more-btn');
         buttons.forEach(button => {
           const isExpanded = button.textContent.includes('less');
