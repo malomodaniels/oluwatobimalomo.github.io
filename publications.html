@@ -1,21 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Oluwatobi's Publications</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Publications | Oluwatobi Malomo</title>
+    <meta name="description" content="Research publications by Oluwatobi Malomo — covering AI Privacy, Federated Learning, Cybersecurity, and AI for Social Good." />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
   </head>
 
   <body>
@@ -29,8 +23,9 @@
             <li><a href="index.html">About</a></li>
             <li><a href="publications.html" class="active">Publications</a></li>
             <li><a href="news.html">Recent Highlights</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="assets/docs/Oluwatobi_Malomo_CV.pdf" target="_blank">CV</a></li>
+            <li><a href="blog.html">Musings</a></li>
+            <!-- FIX: CV filename made consistent with index.html -->
+            <li><a href="assets/docs/Oluwatobi_Malomo.pdf" target="_blank">Resume</a></li>
           </ul>
         </div>
       </nav>
@@ -38,132 +33,163 @@
 
     <div class="page container">
       <h1 class="header-name">Publications</h1>
-      
+
       <div class="publications-intro" style="text-align: justify">
-        <p>My research interest lies at the intersection of Cybersecurity and 
-          Artificial Intelligence, aiming to build robust systems without compromising model utility...</p>
+        <p>My research interest lies at the intersection of Cybersecurity and Artificial Intelligence,
+          aiming to build robust systems without compromising model utility.</p>
       </div>
 
-      <!-- AI Privacy, Trust and Safety -->
+      <!--
+           CATEGORY 1 — AI Privacy, Trust & Safety
+      -->
       <div class="publication-category">
-        <h2 class="category-title">AI Privacy, Trust & Safety</h2>
+        <h2 class="category-title">AI Privacy, Trust &amp; Safety</h2>
 
+        <!-- Publication 1 — IoMT -->
         <div class="publication-item">
           <div class="pub-title">
-            <a href="" target="_blank">Investigation of Augmented Datasets for Security In Internet of 
-              Medical Things (IoMT) Ecosystems</a>
+            <a href="https://www.mdpi.com/journal/computers" target="_blank">
+              Investigation of Augmented Datasets for Security In Internet of Medical Things (IoMT) Ecosystems
+            </a>
           </div>
-          <div class="pub-authors">Azeez Nureni, Ademoye Abdullateef, <span class="author-highlight">Oluwatobi Malomo*</span>, Okerinde Mary, Aaron Damilola, Charles Vyver</div>
-          <div class="pub-venue">MDPI Computers</div>
+          <div class="pub-authors">
+            Azeez Nureni, Ademoye Abdullateef, <span class="author-highlight">Oluwatobi Malomo*</span>, Okerinde Mary, Aaron Damilola, Charles Vyver
+          </div>
+          <div class="pub-venue">MDPI Computers — In Press</div>
           <div class="pub-description">
-            This study aims to fill the gap of insufficient datasets for cybersecurity in Internet of Medical Things (IoMT) 
-            ecosystem through data augmentation and their effects on intrusion detection systems performance. To develop 
-            augmented datasets with varying label distributions, the research utilizes four augmentation methods; Rule-Based, 
-            Tabular Variational Autoencoder (TVAE), Conditional Tabular Generative Adversarial Network (CT_GAN), and Gaussian 
-            Copula to generate synthetic datasets based on existing ECU-IoHT and WUSTL-EHMS datasets...
+            This study aims to fill the gap of insufficient datasets for cybersecurity in Internet of Medical Things (IoMT)
+            ecosystem through data augmentation and their effects on intrusion detection systems performance. To develop
+            augmented datasets with varying label distributions, the research utilizes four augmentation methods: Rule-Based,
+            Tabular Variational Autoencoder (TVAE), Conditional Tabular Generative Adversarial Network (CT_GAN), and Gaussian
+            Copula to generate synthetic datasets based on existing ECU-IoHT and WUSTL-EHMS datasets.
+          </div>
+          <div class="pub-links"></div>
+        </div>
+
+        <!-- Publication 2 — CKC -->
+        <div class="publication-item">
+          <div class="pub-title">
+            <a href="https://journals.ui.edu.ng/index.php/uijslictr/article/view/2041" target="_blank">
+              Artificial Intelligence in Cybersecurity: A Comparative Review of Its Role across the Cyber Kill Chain
+            </a>
+          </div>
+          <div class="pub-authors">
+            Azeez Nureni, <span class="author-highlight">Oluwatobi Malomo*</span>, Aaron Damilola, Ademoye Abdullateef, Okerinde Mary, Otolehi Uzoma, Lukman Olaitan
+          </div>
+          <div class="pub-venue">Journal of Science and Logics in ICT Research — UIJSLICTR 2025</div>
+          <div class="pub-description">
+            Presents a comprehensive overview of the Cyber Kill Chain (CKC), highlighting the role Artificial Intelligence plays
+            across each phase in terms of offensive and defensive cybersecurity operations. A comparative analysis of 3 cybersecurity
+            frameworks, with justifications for each, was also examined. Drawing on real-world case studies and recent literature,
+            this study further highlights current challenges with the fusion of AI into cybersecurity operations, ranging from data privacy,
+            adversarial attacks, and AI explainability. The review concludes by advocating for the adaptation of dynamic, AI-driven modelling
+            frameworks that better align with the rapidly evolving cyber threat landscape.
           </div>
           <div class="pub-links">
-      <div class="publication-category">
-
-      <div class="publication-item">
-        <div class="pub-title">
-          <a href="https://journals.ui.edu.ng/index.php/uijslictr/article/view/2041" target="_blank">Artificial Intelligence 
-            in Cybersecurity: A Comparative Review of Its Role across the Cyber Kill Chain</a>
-        </div>
-        <div class="pub-authors">Azeez Nureni, <span class="author-highlight">Oluwatobi Malomo*</span>, Aaron Damilola, Ademoye Abdullateef, Okerinde Mary, Otolehi Uzoma, Lukman Olaitan</div>
-        <div class="pub-venue">Journal of Science and Logics in ICT Research</div>
-        <div class="pub-description">
-          Presents a comprehensive overview of the Cyber Kill Chain (CKC), highlighting the role Artificial Intelligence plays 
-          across each phase in terms of offensive and defensive cybersecurity operations. A comparative analysis of 3 cybersecurity 
-          frameworks, with justifications for  each, was also examined. Drawing on real-world case studies and recent literature, 
-          this study further highlights current challenges with the fusion of AI into cybersecurity operations, ranging from data privacy, 
-          adversarial attacks, and AI explainability. The review concludes by advocating forthe adaptation of dynamic, AI-driven modelling 
-          frameworks that better align with the rapidly evolving cyber threat landscape.
-        </div>
-        <div class="pub-links">
-
-
-        <!-- <a https://journals.ui.edu.ng/index.php/uijslictr/article/view/2041" target="_blank" class="pub-link">
+            <a href="https://journals.ui.edu.ng/index.php/uijslictr/article/view/2041" target="_blank" class="pub-link">
               <i class="fas fa-file-pdf"></i> Paper
             </a>
-            <a href="https://yourblog.com/post-url" target="_blank" class="pub-link">
-              <i class="fas fa-blog"></i> Blog
-            </a> -->
           </div>
         </div>
-      </div>
 
         <div class="publication-item">
           <div class="pub-title">
-            <a href="" target="_blank">Adversarial Training and Differential Privacy for Privacy-Preserving Vertical Federated Learning</a>
+            <a href="#" target="_blank">
+              Adversarial Training and Differential Privacy for Privacy-Preserving Vertical Federated Learning
+            </a>
           </div>
-          <div class="pub-authors">Azeez Nureni,<span class="author-highlight">Oluwatobi Malomo*</span>, Okerinde Mary, Ademoye Abdullateef, Aaron Damilola, Charles Vyver, Chijioke Ogbonna</div>
-          <div class="pub-venue" title="">Under Review</div>
+          <div class="pub-authors">
+            Azeez Nureni, <span class="author-highlight">Oluwatobi Malomo*</span>, Okerinde Mary, Ademoye Abdullateef, Aaron Damilola, Charles Vyver, Chijioke Ogbonna
+          </div>
+          <div class="pub-venue">MDPI Informatics 2026 — Under Review</div>
           <div class="pub-description">
-            Addresses the model utility vs. privacy tradeoff in privacy-preserving Vertical Federated Learning (VFL) by introducing an 
-            improved a defense mechanism that combines Adversarial Training (to harden the soft labels) and Differential Privacy (aimed 
-            at restoring label privacy) to collectively enhance the robustness of the existing KD defense mechanism with marginal model 
+            Addresses the model utility vs. privacy tradeoff in privacy-preserving Vertical Federated Learning (VFL) by introducing an
+            improved defense mechanism that combines Adversarial Training (to harden the soft labels) and Differential Privacy (aimed
+            at restoring label privacy) to collectively enhance the robustness of the existing KD defense mechanism with marginal model
             utility trade-off.
           </div>
           <div class="pub-links">
-            <a href="https://github.com/malomodaniels/KDk-AT-DP-Implementation" target="_blank" class="pub-link">
+            <a href="#" target="_blank" class="pub-link">
+              <i class="fas fa-file-pdf"></i> Preprint
+            </a>
+            <a href="https://github.com/oluwatobimalomo/KDk-AT-DP-Implementation" target="_blank" class="pub-link">
               <i class="fab fa-github"></i> Code
             </a>
           </div>
         </div>
-      
-        <!-- AI for Social Good (AI4SG) -->
-        <div class="publication-category">
-          <h2 class="category-title">AI for Social Good (AI4SG)</h2>
-          
-          <div class="publication-item">
-            <div class="pub-title">
-              <a href="" target="_blank">From Data to Diagnosis: Facilitating Physician-AI Synergy in Heart Disease Prediction Systems</a>
-            </div>
-            <div class="pub-authors">Oluwaseun Ojerinde, <span class="author-highlight">Oluwatobi Malomo*</span></div>
-            <div class="pub-venue" title="Journal of Engineering and Applied Sciences">JECAS 2026</div>
-            <div class="pub-description">
-              Researchers have created several expert systems over the years to predict heart disease early and assist cardiologists to enhance 
-              the diagnosis process. We present a diagnostic system in this paper that utilizes an optimized XGBoost (Extreme Gradient Boosting) 
-              classifier to predict heart disease...
-            </div>
-          </div>      
 
-          <div class="publication-item">
-            <div class="pub-title">
-              <a href="http://irepo.futminna.edu.ng:8080/jspui/bitstream/123456789/18994/1/Application%20of%20Machine%20Learning%20Algorithm%20for%20Classification%20of%20Fake%20COVID-19%20Tweets.doc" target="_blank">Application of Machine Learning Algorithm for Classification of Fake COVID-19 Tweets</a>
-            </div>
-            <div class="pub-authors"><span class="author-highlight">Oluwatobi Malomo*</span>, Andrew Uduimoh, Alhassan John</div>
-            <div class="pub-venue" title="Journal of Science, Technology, Mathematics and Education">JOSTMED 2023</div>
-            <div class="pub-description">
-              The intentional dissemination of false information, known as fake news, aims to manipulate readers into accepting 
-              biased or untrue beliefs by altering their interpretation and response to real news. However, identifying fake news 
-              is a tedious task, especially on platforms like Twitter where information is rapidly disseminated.
-            </div>
-          </div> 
-          <!-- <div class="pub-links">
-            <a href="https://github.com/ldery/bonsai" target="_blank" class="pub-link">
-              <i class="fab fa-github"></i> Code
+      </div>
+
+      <!---
+           CATEGORY 2 — AI for Social Good
+      -->
+      <div class="publication-category">
+        <h2 class="category-title">AI for Social Good (AI4SG)</h2>
+
+        <!-- Publication 4 — Heart Disease -->
+        <div class="publication-item">
+          <div class="pub-title">
+            <a href="#" target="_blank">
+              From Data to Diagnosis: Facilitating Physician-AI Synergy in Heart Disease Prediction Systems
             </a>
-          </div> -->
+          </div>
+          <div class="pub-authors">
+            Oluwaseun Ojerinde, <span class="author-highlight">Oluwatobi Malomo*</span>
+          </div>
+          <div class="pub-venue">Journal of Engineering and Applied Sciences — JECAS 2026</div>
+          <div class="pub-description">
+            Researchers have created several expert systems over the years to predict heart disease early and assist cardiologists
+            to enhance the diagnosis process. We present a diagnostic system in this paper that utilizes an optimized XGBoost
+            (Extreme Gradient Boosting) classifier to predict heart disease.
+          </div>
+          <div class="pub-links"></div>
         </div>
 
-      <!-- External Links -->
+        <!-- Publication 5 — COVID Tweets -->
+        <div class="publication-item">
+          <div class="pub-title">
+            <a href="http://irepo.futminna.edu.ng:8080/jspui/handle/123456789/18994" target="_blank">
+              Application of Machine Learning Algorithm for Classification of Fake COVID-19 Tweets
+            </a>
+          </div>
+          <div class="pub-authors">
+            <span class="author-highlight">Oluwatobi Malomo*</span>, Andrew Uduimoh, Alhassan John
+          </div>
+          <div class="pub-venue">Journal of Science, Technology, Mathematics and Education — JOSTMED 2023</div>
+          <div class="pub-description">
+            The intentional dissemination of false information, known as fake news, aims to manipulate readers into accepting
+            biased or untrue beliefs by altering their interpretation and response to real news. However, identifying fake news
+            is a tedious task, especially on platforms like Twitter where information is rapidly disseminated. This AI for Social
+            Good research leverages Machine Learning algorithms to detect COVID-19 fake news on Twitter.
+          </div>
+          <div class="pub-links">
+            <a href="http://irepo.futminna.edu.ng:8080/jspui/handle/123456789/18994" target="_blank" class="pub-link">
+              <i class="fas fa-file-pdf"></i> Paper
+            </a>
+            <a href="https://arxiv.org/abs/2509.21837" target="_blank" class="pub-link">
+              <i class="fas fa-file-alt"></i> Preprint
+            </a>
+          </div>
+        </div>
+
+      </div>
+
       <div class="external-links">
         <h2 class="category-title">External Profiles</h2>
         <div class="external-link-list">
           <a href="https://scholar.google.com/citations?user=yGvnu_gAAAAJ&hl=en" target="_blank" class="external-link">
-            <i class="ai ai-google-scholar"></i> Google Scholar Profile
+            <i class="ai ai-google-scholar"></i> Google Scholar
           </a>
           <a href="https://openreview.net/profile?id=~Oluwatobi_Malomo1" target="_blank" class="external-link">
-            <i class="fas fa-file-alt"></i> OpenReview Profile
+            <i class="fas fa-file-alt"></i> OpenReview
+          </a>
+          <a href="https://www.researchgate.net/profile/oluwatobi-malomo" target="_blank" class="external-link">
+            <i class="ai ai-researchgate"></i> ResearchGate
           </a>
         </div>
       </div>
 
-      <div class="publications-note">
-      </div>
-
     </div>
+
   </body>
 </html>
