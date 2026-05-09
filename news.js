@@ -1,6 +1,8 @@
 const NEWS_ITEMS = [
   `<strong>[May 2026]</strong> Our paper, <span style="color: rgb(128, 118, 10)">Investigation of Augmented Datasets for Security In Internet Of Medical Things (IoMT) Ecosystems</span>, was accepted in <a href="http://www.mdpi.com/journal/computers" target="_blank"><span style="color: rgb(128, 118, 10)">MDPI Computers 2026</span></a>`,
   
+  `<strong>[May 2026]</strong> Our Case Study, <span style="color: rgb(128, 118, 10)">Overwhelmed and In Retreat: Expectation, Preparation, and Realized Experiences Clash on an Exchange Program</span>, was accepted in <a href="https://www.csiepub.org" target="_blank"><span style="color: rgb(128, 118, 10)">Case Studies in International Education Issue #7(1)</span></a>`,  
+  
   `<strong>[Apr 2026]</strong> Our paper, <span style="color: rgb(128, 118, 10)">Adversarial Training and Differential Privacy for Privacy-Preserving Vertical Federated Learning</span>, was accepted in <a href="http://www.mdpi.com/journal/informatics" target="_blank"><span style="color: rgb(128, 118, 10)">MDPI Informatics 2026</span></a>`,
   
   `<strong>[Apr 2026]</strong> Our paper, <span style="color: rgb(128, 118, 10)">From Data to Diagnosis: Facilitating Physician-AI Synergy in Heart Disease Prediction Systems</span>, was accepted in <a href="http://jecasmu.org" target="_blank"><span style="color: rgb(128, 118, 10)">JECASMU 2026</span></a>`,
