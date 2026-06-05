@@ -1,5 +1,5 @@
 const NEWS_ITEMS = [
-  `<strong>[May 2026]</strong> Our paper, <span style="color: rgb(128, 118, 10)">Investigation of Augmented Datasets for Security In Internet Of Medical Things (IoMT) Ecosystems</span>, was published in <a href="https://www.mdpi.com/2073-431X/15/6/369" target="_blank"><span style="color: rgb(128, 118, 10)">MDPI <i>Computers 2026</i></span></a>`,
+  `<strong>[May 2026]</strong> Our paper, <span style="color: rgb(128, 118, 10)">Investigation of Augmented Datasets for Security In Internet Of Medical Things (IoMT) Ecosystems</span>, was published in <a href="https://www.mdpi.com/2073-431X/15/6/369" target="_blank"><span style="color: rgb(128, 118, 10)"><i>Computers 2026</i></span></a>`,
   
   `<strong>[May 2026]</strong> Our Case Study, <span style="color: rgb(128, 118, 10)">Overwhelmed and In Retreat: Expectation, Preparation, and Realized Experiences Clash on an Exchange Program</span>, was accepted in <a href="https://www.csiepub.org" target="_blank"><span style="color: rgb(128, 118, 10)">Case Studies in International Education Issue #7(1)</span></a>`,  
   
@@ -13,7 +13,7 @@ const NEWS_ITEMS = [
   
   `<strong>[Jun 2023]</strong> Our paper, <a href="http://irepo.futminna.edu.ng:8080/jspui/bitstream/123456789/18994/1/Application%20of%20Machine%20Learning%20Algorithm%20for%20Classification%20of%20Fake%20COVID-19%20Tweets.doc" target="_blank"><span style="color: rgb(128, 118, 10)">Application of Machine Learning Algorithm for Classification of Fake COVID-19 Tweets</span></a>, was published in <a href="" target="_blank"><span style="color: rgb(128, 118, 10)">JOSTMED 2023</span></a>,`,
 
-  `<strong>[Feb 2022]</strong> I convoked from the Federal University of Technology Minna, graduating Top 2 in my class with First Class honors.`,
+  `<strong>[Feb 2022]</strong> I convoked from the Federal University of Technology Minna, graduating Top 1% in my class with First Class honors.`,
 ];
 
 function renderNews(containerId, limit) {
